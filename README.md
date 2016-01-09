@@ -9,7 +9,7 @@ It is capable of setting ansible common variables (user and if to use sudo)
 and to set role(s) to given servers. These roles turns into group when 
 passed to ansible.
 
-The script is passed via -i <script name> to ansible-playbook. Ansible
+The script is passed via "-i" to ansible-playbook. Ansible
 Example:
 ansible -i ./openstack_inventory.py all -m ping
 
