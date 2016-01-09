@@ -1,2 +1,2 @@
-novaclient
-openstackclient
+python-novaclient
+python-openstackclient
